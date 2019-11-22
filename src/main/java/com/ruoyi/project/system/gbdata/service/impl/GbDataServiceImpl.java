@@ -125,10 +125,9 @@ public class GbDataServiceImpl implements IGbDataService {
         String nowDate = DateUtils.getDate();
         if(DateUtils.before(startDate, nowDate)){
             while(DateUtils.before(startDate, nowDate)){
-                pullDateList.add(startDate);
                 startDate = DateUtils.addOneDay(startDate);
+                pullDateList.add(startDate);
             }
-            pullDateList.add(nowDate);
         }
         return pullDateList;
     }
