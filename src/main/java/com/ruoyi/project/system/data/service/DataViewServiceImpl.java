@@ -562,7 +562,7 @@ public class DataViewServiceImpl implements IDataViewService {
         list.add(title0);
         Map<String,Object> title1 = new LinkedHashMap<>();
         title1.put("field",index+"_zlCount");
-        title1.put("title","汇聚数据量");
+        title1.put("title","标准数据量");
         title1.put("align","center");
         title1.put("width",150);
         list.add(title1);
