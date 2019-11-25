@@ -13,15 +13,12 @@ import com.ruoyi.project.system.gbdata.domain.*;
 import com.ruoyi.project.system.gbdata.mapper.impl.GbDataViewMapperImpl;
 import com.ruoyi.project.system.gbdata.service.IGbDataService;
 import com.ruoyi.project.system.gbdata.service.ImplementionOrgCodeService;
-import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
